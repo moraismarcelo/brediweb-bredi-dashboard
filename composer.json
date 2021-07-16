@@ -1,0 +1,37 @@
+{
+    "name": "bredi/bredi-dashboard",
+    "description": "Dashboard base em Laravel",
+    "keywords": [
+        "laravel",
+        "laravel-dashboard",
+        "dashboard",
+        "base-dashboard"
+    ],
+    "authors": [{
+        "name": "Rodrigo de Souza",
+        "email": "rd7.rodrigo@gmail.com"
+    }],
+    "extra": {
+        "laravel": {
+            "providers": ["Bredi\\BrediDashboard\\Providers\\BrediDashboardServiceProvider"],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bredi\\BrediDashboard\\": "src/"
+        },
+        "files": ["src/Http/Helper/Helper.php"]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3",
+        "barryvdh/laravel-debugbar": "^3.2",
+        "barryvdh/laravel-cors": "^0.11.4",
+        "igaster/laravel-theme": "^2.0",
+        "laravelcollective/html": "^5.4.0",
+        "rodrigodesouza/laravel-autodeploy": "1.*",
+        "rd7/imagemupload": "1.*",
+        "arcanedev/log-viewer": "4.*"
+    }
+}

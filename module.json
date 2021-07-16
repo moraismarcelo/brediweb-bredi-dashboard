@@ -1,0 +1,14 @@
+{
+    "name": "BrediDashboard",
+    "alias": "bredidashboard",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Bredi\\BrediDashboard\\Providers\\BrediDashboardServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
