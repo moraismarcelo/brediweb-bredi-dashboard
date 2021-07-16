@@ -1,5 +1,5 @@
 {
-    "name": "bredi/bredi-dashboard",
+    "name": "brediweb/bredi-dashboard",
     "description": "Dashboard base em Laravel",
     "keywords": [
         "laravel",
@@ -8,8 +8,8 @@
         "base-dashboard"
     ],
     "authors": [{
-        "name": "Rodrigo de Souza",
-        "email": "rd7.rodrigo@gmail.com"
+        "name": "Admin Bredi",
+        "email": "contato@bredi.com.br"
     }],
     "extra": {
         "laravel": {
@@ -30,8 +30,7 @@
         "barryvdh/laravel-cors": "^0.11.4",
         "igaster/laravel-theme": "^2.0",
         "laravelcollective/html": "^5.4.0",
-        "rodrigodesouza/laravel-autodeploy": "1.*",
-        "rd7/imagemupload": "1.*",
+        "brediweb/imagemupload": "dev-master",
         "arcanedev/log-viewer": "4.*"
     }
 }
