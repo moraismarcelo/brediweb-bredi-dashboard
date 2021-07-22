@@ -39,6 +39,7 @@ class BrediDashboardServiceProvider extends ServiceProvider
             require_once $file;
         }
 
+        $this->loadViewsFrom(__DIR__.'/views', 'bredicoloradmin');
         $this->registerTranslations();
         $this->registerConfig();
         $this->registerViews();
