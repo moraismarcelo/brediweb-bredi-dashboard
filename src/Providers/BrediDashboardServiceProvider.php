@@ -15,7 +15,7 @@ class BrediDashboardServiceProvider extends ServiceProvider
      * @var array
      */
     // protected $policies = [
-    //     'App\Model' => 'Bredi\BrediDashboard\Policies\BrediDashboardPolicy',
+    //     'App\Model' => 'Brediweb\BrediDashboard\Policies\BrediDashboardPolicy',
     // ];
     /**
      * Indicates if loading of the provider is deferred.

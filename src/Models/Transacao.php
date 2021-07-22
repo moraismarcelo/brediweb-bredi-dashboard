@@ -11,7 +11,7 @@ class Transacao extends Model
 
     public function permissaos()
     {
-        return $this->hasMany(\Bredi\BrediDashboard\Models\Permissao::class)->where('grupo_usuario_id', Auth::user()->grupo_usuario_id)->get();
+        return $this->hasMany(\Brediweb\BrediDashboard\Models\Permissao::class)->where('grupo_usuario_id', Auth::user()->grupo_usuario_id)->get();
     }
 
 }

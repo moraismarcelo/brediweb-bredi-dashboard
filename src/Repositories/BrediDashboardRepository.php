@@ -5,7 +5,7 @@ use Brediweb\BrediDashboard\Repository\BaseRepository;
 
 class BrediDashboardRepository extends BaseRepository
 {
-    protected $modelClass = \Bredi\BrediDashboard\Models\Config::class;
+    protected $modelClass = \Brediweb\BrediDashboard\Models\Config::class;
 
     public function getConfig()
     {

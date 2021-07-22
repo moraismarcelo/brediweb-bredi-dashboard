@@ -18,6 +18,6 @@ class GrupoUsuario extends Model
 
     public function permissaos()
     {
-        return $this->belongsToMany(\Bredi\BrediDashboard\Models\Transacao::class, 'permissaos');//, 'transacao_id', 'id'
+        return $this->belongsToMany(\Brediweb\BrediDashboard\Models\Transacao::class, 'permissaos');//, 'transacao_id', 'id'
     }
 }

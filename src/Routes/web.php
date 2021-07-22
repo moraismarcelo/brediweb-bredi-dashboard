@@ -14,14 +14,14 @@ use Brediweb\BrediDashboard\Http\Middleware\ValidaPermissao;
  */
 // Authentication Routes...
 Route::get('/login', 'BrediDashboardController@formLogin')
-        ->middleware('guest', \Bredi\BrediDashboard\Http\Middleware\RedirectDashboard::class)
+        ->middleware('guest', \Brediweb\BrediDashboard\Http\Middleware\RedirectDashboard::class)
         ->name('bredidashboard::login'); //->as('bredidashboard::');
 
 Route::get('/home', function(){
     return redirect()->route('bredidashboard::dashboard');
 });
 
-Route::post('/login', ['uses' => 'Auth\BrediDashboardLoginController@login', 'as' => 'login'])->middleware('guest', \Bredi\BrediDashboard\Http\Middleware\RedirectDashboard::class);
+Route::post('/login', ['uses' => 'Auth\BrediDashboardLoginController@login', 'as' => 'login'])->middleware('guest', \Brediweb\BrediDashboard\Http\Middleware\RedirectDashboard::class);
 
 Route::get('logout', 'Auth\BrediDashboardLoginController@logout')->name('bredidashboard::logout');
 // Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');

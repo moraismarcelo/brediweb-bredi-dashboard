@@ -26,7 +26,7 @@ class User extends Usuario
     
     public function grupoUsuario()
     {
-        return $this->belongsTo(\Bredi\BrediDashboard\Models\GrupoUsuario::class);
+        return $this->belongsTo(\Brediweb\BrediDashboard\Models\GrupoUsuario::class);
     }
     
 }
