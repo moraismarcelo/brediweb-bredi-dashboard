@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediDashboard\Http\Controllers\Auth;
+namespace Brediweb\BrediDashboard\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;

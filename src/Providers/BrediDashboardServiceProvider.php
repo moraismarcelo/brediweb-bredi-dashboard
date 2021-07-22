@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediDashboard\Providers;
+namespace Brediweb\BrediDashboard\Providers;
 
 use Illuminate\Database\Eloquent\Factory;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;

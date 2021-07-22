@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediDashboard\Http\Controllers;
+namespace Brediweb\BrediDashboard\Http\Controllers;
 
 use Bredi\BrediDashboard\Http\Requests\CreateUsuarioRequest;
 use Bredi\BrediDashboard\Http\Requests\UpdateUsuarioRequest;

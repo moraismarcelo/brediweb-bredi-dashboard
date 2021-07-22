@@ -1,5 +1,5 @@
 <?php
-namespace Bredi\BrediDashboard\Repository;
+namespace Brediweb\BrediDashboard\Repository;
 
 use Bredi\BrediDashboard\Repository\BaseRepository;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediDashboard\Scope;
+namespace Brediweb\BrediDashboard\Scope;
 
 use Illuminate\Database\Eloquent\Scope;
 use Illuminate\Database\Eloquent\Model;

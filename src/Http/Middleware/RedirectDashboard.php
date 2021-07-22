@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediDashboard\Http\Middleware;
+namespace Brediweb\BrediDashboard\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

@@ -1,5 +1,5 @@
 <?php
-namespace Bredi\BrediDashboard\Repository;
+namespace Brediweb\BrediDashboard\Repository;
 
 use Illuminate\Database\Eloquent\Builder as EloquentQueryBuilder;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediDashboard\Models;
+namespace Brediweb\BrediDashboard\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use App\User as Usuario;

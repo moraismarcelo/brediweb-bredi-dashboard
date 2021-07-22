@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediDashboard\Database\Seeders;
+namespace Brediweb\BrediDashboard\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;

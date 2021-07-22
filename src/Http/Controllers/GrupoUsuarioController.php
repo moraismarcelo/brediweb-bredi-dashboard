@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediDashboard\Http\Controllers;
+namespace Brediweb\BrediDashboard\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
