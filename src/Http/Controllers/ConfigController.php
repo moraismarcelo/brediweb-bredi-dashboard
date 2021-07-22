@@ -5,8 +5,8 @@ namespace Brediweb\BrediDashboard\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use Rd7\ImagemUpload\ImagemUpload;
-use Bredi\BrediDashboard\Models\Config;
+use Brediweb\\ImagemUpload\ImagemUpload;
+use Brediweb\BrediDashboard\Models\Config;
 
 class ConfigController extends Controller
 {

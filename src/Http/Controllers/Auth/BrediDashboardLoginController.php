@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 // use App\Http\Controllers\Auth;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
-use Bredi\BrediDashboard\Models\UserGrupoUsuario;
+use Brediweb\BrediDashboard\Models\UserGrupoUsuario;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class BrediDashboardLoginController extends Controller

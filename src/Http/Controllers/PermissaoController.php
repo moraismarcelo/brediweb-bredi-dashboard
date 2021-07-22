@@ -5,10 +5,10 @@ namespace Brediweb\BrediDashboard\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use Bredi\BrediDashboard\Models\Permissao;
-use Bredi\BrediDashboard\Models\GrupoUsuario;
-use Bredi\BrediDashboard\Models\CategoriaTransacao;
-use Bredi\BrediDashboard\Models\Transacao;
+use Brediweb\BrediDashboard\Models\Permissao;
+use Brediweb\BrediDashboard\Models\GrupoUsuario;
+use Brediweb\BrediDashboard\Models\CategoriaTransacao;
+use Brediweb\BrediDashboard\Models\Transacao;
 
 class PermissaoController extends Controller
 {

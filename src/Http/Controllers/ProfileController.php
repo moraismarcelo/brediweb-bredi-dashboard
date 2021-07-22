@@ -2,15 +2,15 @@
 
 namespace Brediweb\BrediDashboard\Http\Controllers;
 
-use Bredi\BrediDashboard\Http\Requests\CreateUsuarioRequest;
-use Bredi\BrediDashboard\Http\Requests\UpdateUsuarioRequest;
-use Bredi\BrediDashboard\Models\GrupoUsuario;
-use Bredi\BrediDashboard\Models\User;
+use Brediweb\BrediDashboard\Http\Requests\CreateUsuarioRequest;
+use Brediweb\BrediDashboard\Http\Requests\UpdateUsuarioRequest;
+use Brediweb\BrediDashboard\Models\GrupoUsuario;
+use Brediweb\BrediDashboard\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;
-use Rd7\ImagemUpload\ImagemUpload;
+use Brediweb\\ImagemUpload\ImagemUpload;
 use Illuminate\Support\Facades\Auth;
 
 class ProfileController extends Controller

@@ -5,8 +5,8 @@ namespace Brediweb\BrediDashboard\Http\Middleware;
 use Closure;
 use Illuminate\Support\Facades\Gate;
 use Route;
-use Bredi\BrediDashboard\Models\Permissao;
-use Bredi\BrediDashboard\Models\Transacao;
+use Brediweb\BrediDashboard\Models\Permissao;
+use Brediweb\BrediDashboard\Models\Transacao;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Auth;
 

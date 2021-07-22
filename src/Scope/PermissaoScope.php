@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Scope;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Auth;
-use Bredi\BrediDashboard\Models\User;
-use Bredi\BrediDashboard\Models\GrupoUsuario;
+use Brediweb\BrediDashboard\Models\User;
+use Brediweb\BrediDashboard\Models\GrupoUsuario;
 
 class PermissaoScope implements Scope
 {

@@ -5,11 +5,11 @@ namespace Brediweb\BrediDashboard\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use Rd7\ImagemUpload\ImagemUpload;
+use Brediweb\\ImagemUpload\ImagemUpload;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
-use Bredi\BrediDashboard\Models\GrupoUsuario;
+use Brediweb\BrediDashboard\Models\GrupoUsuario;
 
 use Illuminate\Support\Facades\Request as Requ;
 

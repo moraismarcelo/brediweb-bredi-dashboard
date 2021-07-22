@@ -3,7 +3,7 @@
 namespace Brediweb\BrediDashboard\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Bredi\BrediDashboard\Scope\PermissaoScope;
+use Brediweb\BrediDashboard\Scope\PermissaoScope;
 
 class GrupoUsuario extends Model
 {

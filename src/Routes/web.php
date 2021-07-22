@@ -1,6 +1,6 @@
 <?php
 
-use Bredi\BrediDashboard\Http\Middleware\ValidaPermissao;
+use Brediweb\BrediDashboard\Http\Middleware\ValidaPermissao;
 
 /*
 |--------------------------------------------------------------------------
