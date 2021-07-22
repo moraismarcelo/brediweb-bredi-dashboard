@@ -13,13 +13,13 @@
     }],
     "extra": {
         "laravel": {
-            "providers": ["Brediweb\BrediDashboard\\Providers\\BrediDashboardServiceProvider"],
+            "providers": ["Brediweb\\BrediDashboard\\Providers\\BrediDashboardServiceProvider"],
             "aliases": {}
         }
     },
     "autoload": {
         "psr-4": {
-            "Brediweb\BrediDashboard\\": "src/"
+            "Brediweb\\BrediDashboard\\": "src/"
         },
         "files": ["src/Http/Helper/Helper.php"]
     },
