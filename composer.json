@@ -29,7 +29,7 @@
         "barryvdh/laravel-debugbar": "^3.2",
         "barryvdh/laravel-cors": "^0.11.4",
         "igaster/laravel-theme": "^2.0",
-        "laravelcollective/html": "^5.4.0",
+        "laravelcollective/html": "5.4.0",
         "brediweb/imagemupload": "dev-master",
         "arcanedev/log-viewer": "4.*"
     }
