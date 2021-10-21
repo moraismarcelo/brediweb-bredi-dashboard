@@ -15,13 +15,14 @@ class UpdateUsuarioRequest extends FormRequest
     {
         $rules = [
             'name' => 'required|min:2',
-            'email' => "required|email|unique:users,email,$this->id,id",
-            // 'password' => 'required|min:6'
+            'email' => "required|email|unique:users,email,$this->id,id"
         ];
-        if (request()->get('password') || request()->get('actual_password')) {
+
+        if (request()->get('password'))
+        {
             $rules = array_merge($rules, [
-                'password' => config('bredidashboard.user.password_validation'),
-                'actual_password' => config('bredidashboard.user.password_validation')]
+                'password' => config('bredidashboard.user.password_validation')
+                ]
             );
         }
 
