@@ -1,10 +1,10 @@
 <?php
-namespace Brediweb\BrediDashboard\Traits;
+namespace Brediweb\BrediDashboard\Trait;
 use Vinkla\Hashids\Facades\Hashids;
 /**
  * trait for create hash id in tables
  */ 
-trait HashidTrait
+trait Hashid
 {
 
     protected static function boot() {
