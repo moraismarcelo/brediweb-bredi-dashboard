@@ -1,7 +1,7 @@
 <?php
-namespace Brediweb\BrediDashboard\Repository;
+namespace Brediweb\BrediDashboard\Repositories;
 
-use Brediweb\BrediDashboard\Repository\BaseRepository;
+use Brediweb\BrediDashboard\Repositories\BaseRepository;
 
 class BrediDashboardRepository extends BaseRepository
 {
