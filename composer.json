@@ -31,6 +31,6 @@
         "igaster/laravel-theme": "^2.0",
         "laravelcollective/html": "6.3.0",
         "brediweb/imagemupload": "dev-master",
-        "arcanedev/log-viewer": "4.*"
+        "arcanedev/log-viewer": "7.0.0"
     }
 }
