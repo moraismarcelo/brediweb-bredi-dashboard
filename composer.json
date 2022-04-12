@@ -30,13 +30,6 @@
         "barryvdh/laravel-cors": "^3.0.0",
         "igaster/laravel-theme": "^2.0",
         "laravelcollective/html": "6.3.0",
-        "brediweb/imagemupload": "7.x-dev",
         "arcanedev/log-viewer": "7.0.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/moraismarcelo/brediweb-imagemupload"
-        }
-    ]
+    }
 }
